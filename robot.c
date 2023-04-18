@@ -5,6 +5,7 @@
  * ~/robots example source for Software Engineering.
  *
  * @author Tanya L. Crenshaw, Nathan Schmedake
+ * @author Christopher Yee
  * @since August 2013
  *
  */
