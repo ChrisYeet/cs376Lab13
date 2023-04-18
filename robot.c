@@ -61,6 +61,7 @@ void dalekPrintAscii(void)
          "%s    o         o    \n"
          "%s    o  0  ()  o    \n"
 	 "%s   o           o   \n"
+	 "%s LMAOOOOOOOOOOOOO  \n"
    	 "%s o o o o o o o o o \n"
    	 "%s o o o o o o o o o \n"
    	 "%s o o o o o o o o o \n", blank, blank, blank, blank, blank, blank, 
