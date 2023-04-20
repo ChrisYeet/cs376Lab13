@@ -4,7 +4,15 @@
  * A file that contains the supporting functions for main() in the
  * ~/robots example source for Software Engineering.
  *
+ * <<<<<<< animateMARSH
  * @author Marshall 
+ * =======
+ * <<<<<<< flags
+ * @author Tanya L. Crenshaw, Nathan Schmedake
+ * @author Christopher Yee
+ * @author Tanya L. Crenshaw, Nathan Schmedake, Bryce Kwon
+ * >>>>>>> main
+ * >>>>>>> main
  * @since August 2013
  *
  */
@@ -50,10 +58,17 @@ else if(i == 3){
 	 "UWR: Unidentified Wheeled Robot\n"
 	 "%s    i_i    \n"
 	 "%s   [0_0]   \n"
+  char* blank = "                              ";
+  for (i = 0; i < 3; i++) {
+      blank = blank + (i*5);
+      printf("\n\n"
+	 "%s    i_i    \n"
+	 "%s   [-_-]   \n"
 	 "%s  /|___|\\ \n"
 	 "%s   d   b   \n",blank, blank, blank, blank);
 
-  blank = blank - 10;
+      //blank = blank - 10;
+  }
 }
 }
 
@@ -75,6 +90,7 @@ void dalekPrintAscii(void)
          "%s    o         o    \n"
          "%s    o  0  ()  o    \n"
 	 "%s   o           o   \n"
+	 "%s LMAOOOOOOOOOOOOO  \n"
    	 "%s o o o o o o o o o \n"
    	 "%s o o o o o o o o o \n"
    	 "%s o o o o o o o o o \n", blank, blank, blank, blank, blank, blank, 
