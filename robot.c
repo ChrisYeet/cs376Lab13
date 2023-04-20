@@ -38,38 +38,15 @@ void robotPrintMessage(void)
  */
 void robotPrintAscii(void)
 {
-  int i;
-for(i = 0; i < 4; i++){
-char* blank = "                                ";
-if(i == 0){
-  blank = "   ";
-}
-else if(i == 1){
-  blank = "          ";
-} 
-else if(i == 2){
-  blank = "                    ";
-}
-else if(i == 3){
-  blank = "                                ";
-}
-  blank = blank +30;
-  printf("\n\n" 
-	 "UWR: Unidentified Wheeled Robot\n"
-	 "%s    i_i    \n"
-	 "%s   [0_0]   \n"
   char* blank = "                              ";
-  for (i = 0; i < 3; i++) {
+  for (int i = 0; i < 3; i++) {
       blank = blank + (i*5);
       printf("\n\n"
 	 "%s    i_i    \n"
 	 "%s   [-_-]   \n"
 	 "%s  /|___|\\ \n"
 	 "%s   d   b   \n",blank, blank, blank, blank);
-
-      //blank = blank - 10;
   }
-}
 }
 
 /**
