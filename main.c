@@ -22,15 +22,17 @@
  */
 int main(int argc, const char * argv[])
 {
+  if (argv[1] == NULL) {
+    return 1;
+  }
+  
   int a;
   a = isdigit(*argv[1]);
-  if(a != '\0') {
+  
   robotPrintAscii();
   dalekPrintAscii();
   robotPrintMessage();
-  }else {
-    robotPrintAscii();
-}
+
   printf("Apple Bottom Jeans");
   return 0;
 }
